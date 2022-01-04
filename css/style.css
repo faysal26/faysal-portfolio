@@ -1,49 +1,61 @@
-body{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
 }
 
-h1{
-    font-size: 50px;
+h1 {
+  font-size: 50px;
 }
 
-#head-color{
-    color: orange;
+#head-color {
+  color: orange;
 }
 
-section{
-    display: flex;
-    /* margin: 50px; */
+.main-container {
+  display: flex;
+  /* margin: 50px; */
 }
-.main-page{
-    margin: 100px;
+.main-page {
+  margin: 100px;
 }
-#link-button{
-text-decoration: none;
-background-image: linear-gradient(orange, tomato);
-padding: 10px 30px;
-color: white;
-font-weight: bold;
-border-radius: 5px;
+#link-button {
+  text-decoration: none;
+  background-image: linear-gradient(orange, tomato);
+  padding: 10px 30px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
 }
-.top-banner{
-    background-image: url(./image/top-banner.png);
-    background-repeat: no-repeat;
+.top-banner {
+  background-image: url(./image/top-banner.png);
+  background-repeat: no-repeat;
 }
-.dream-banner{
-    margin-top: 80px;
-    background-image: url(./image/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
+.dream-banner {
+  margin-top: 80px;
+  background-image: url(./image/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-bottom: 150px;
 }
-    .sec-page{
-        /* margin-top: 100px; */
-        /* margin: 50px; */
-        width: 80%;
-        margin-left: 100px;
-
-    }
-    .sec-page2{
-width: 50%;
-margin-right: 80px;
-    }
+.sec-page {
+  /* margin-top: 100px; */
+  /* margin: 50px; */
+  width: 80%;
+  margin-left: 100px;
+}
+.sec-page2 {
+  width: 50%;
+  margin-right: 80px;
+}
+.last-banner {
+    margin: 80px;
+}
+.experience-sec {
+  display: flex;
+}
+.exprience-article {
+}
+.exprience-container {
+  width: 50%;
+  padding: 0px 100px 0px 100px;
+}
