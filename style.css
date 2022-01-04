@@ -16,7 +16,7 @@ section{
     /* margin: 50px; */
 }
 .main-page{
-    margin: 50px;
+    margin: 100px;
 }
 #link-button{
 text-decoration: none;
@@ -30,4 +30,20 @@ border-radius: 5px;
     background-image: url(/image/top-banner.png);
     background-repeat: no-repeat;
 }
-    
+.dream-banner{
+    margin-top: 80px;
+    background-image: url(/image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+    .sec-page{
+        /* margin-top: 100px; */
+        /* margin: 50px; */
+        width: 80%;
+        margin-left: 100px;
+
+    }
+    .sec-page2{
+width: 50%;
+margin-right: 80px;
+    }
